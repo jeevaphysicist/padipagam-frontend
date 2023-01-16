@@ -1,2 +1,2 @@
-let API = "http://localhost:8080/api";
+let API = "https://padippagam-backend.onrender.com/api";
 module.exports = API;
