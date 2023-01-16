@@ -1,0 +1,44 @@
+*{
+    font-weight: bolder;
+}
+.card{
+    margin: 5rem;
+    width:500px;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px  gray;
+    padding:10px
+}
+
+.card div{
+    padding: 10px;
+}
+
+.button a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    color:white;
+    border-radius: 7px;
+}
+
+.button a:hover{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    color:white;
+    border-radius: 7px;
+    border:2px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+
+@media (max-width:600px){
+    .card{
+        width: 300px;
+       margin: auto;
+    }
+}

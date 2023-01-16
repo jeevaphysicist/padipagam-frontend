@@ -1,0 +1,226 @@
+/* backgrond */
+.json{
+     background-image: url('./Assets/background.png');
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100vh;
+     box-sizing: border-box;
+     background-size: cover;
+}
+
+/* login box */
+.json .json-login-box{
+    margin-top: 20px;
+    width: 300px;
+    background-color:#212652 ;
+    opacity: 0.8;
+}
+
+/* login header */
+.json .heading {
+    color:white;
+    padding-bottom: 10px;
+}
+
+/* footer */
+.json .Footer{
+    background-color:#212652 ;
+    width:100%;
+    height:50px;
+    color:white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.8;
+}
+
+/* about icon */
+.json .about-icon {
+       width:20px;
+       height:20px;
+       font-size:20px;
+    }
+
+/* aside */
+.json #aside{
+    background-color:#212652;
+    width:250px;
+    height: 78vh;
+    position: fixed;
+    left: 0px; 
+    color: white;
+    opacity: 0.8;
+}
+/* main */
+.json #main{
+    background-color:#212652;
+    width:100%;
+    height: 78vh;
+    position: relative;
+    left: 0px;    
+    opacity: 0.8;    
+}
+
+/* menu bar start */
+.json #menu-row{
+    cursor: pointer;
+}
+.json #menu-row:hover {
+    cursor: pointer;
+    background-color: white;
+    color:#212652 ;
+}
+
+.json #menu-column{
+     display: none;
+}
+.json #main-menu{
+    display:none;
+}
+/* menu bar end */
+
+/* aside */
+.json .aside-body{
+    position: relative;
+    height:67.5vh;
+    width:100%;
+    overflow-y: scroll;
+}
+
+/* main */
+.json .content-body{
+      position: relative;
+      height:77.7vh;
+      width:100%;
+      overflow-y: scroll;
+}
+/* aside */
+.json .main-heading{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    color:#212652;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* aside */
+.json .sub-heading{
+    margin-left: 20px;
+    font-size: 13px;
+}
+/* aside */
+.json ul{
+    font-size: 10px;
+    line-height: 2;
+}
+
+/* aside */
+.json #aside ul li:hover{
+      background-color: white;
+      color:#212652;
+}
+
+.json #aside ul .active{
+    background-color: white;
+    color:#212652;
+}
+
+
+.display-image{
+    width: 50%;
+    height: auto;
+}
+
+
+
+@media (max-width:780px) {
+
+.json #menu-row{
+         display: none;
+}
+
+.json #menu-column{
+        display: block;
+}
+
+.json #aside{
+    background-color: white;
+    color:#212652;
+    width:300px;
+    height: 80vh;
+    position: fixed;
+    left: 0px;
+    display: block;
+    z-index: 1;
+}
+
+.json .Footer{
+    font-size: 10px;
+}
+
+.display-image{
+    width: 280px;
+    height: auto;
+}
+.json #main video{
+    width: 250px;
+}
+}
+
+@media (max-width:991px) {
+
+.json #main-menu{
+        display:block;
+}
+
+.json #aside{
+    background-color: white;
+    color:#212652;
+    width:250px;
+    height: 80vh;
+    position: fixed;
+    left: 0px;
+    display: block;
+    z-index: 1;
+ }
+
+.json #aside-close{
+     display: none;
+}
+
+.json .main-heading{
+    background-color: #212652;
+    padding: 10px;
+    margin: 10px;
+    color:white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.json .sub-heading{
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+/* aside */
+.json #aside ul li:hover{
+    background-color: #212652;
+    color:white;
+}
+
+.json #aside ul .active{
+  background-color: #212652;
+  color:white;
+}
+
+}
+
+@media (min-width:1157px) {
+
+.json #aside{
+     width: 300px;
+}
+
+}
