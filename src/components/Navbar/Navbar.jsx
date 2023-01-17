@@ -27,7 +27,7 @@ export default function Appauthorized() {
         <i className="bi bi-gear text-end" onClick={()=>{setStylemodal(true)}} ></i>
         <nav  className={stylemodal ? "settingsopen" : "settingsclose"}>
         <i className="bi bi-arrow-left" onClick={()=>{setStylemodal(false)}} ></i>
-       { false ?<Link to="#" className='head col-3'><span>Account</span></Link> : <Link to="/login" className='col-3'><button className='btn btn-block btn-danger'>Login</button></Link>}
+       { false ?<Link to="#" className='head col-3'><span>Account</span></Link> : <Link to="/json" className='col-3'><button className='btn btn-block btn-danger'>Login</button></Link>}
         <Link to="/" className='head col-3'>Home</Link>
         <Link to="/#" className='head col-3'>Contact</Link>
         <Link to="/#" className='head col-3'>About</Link>
